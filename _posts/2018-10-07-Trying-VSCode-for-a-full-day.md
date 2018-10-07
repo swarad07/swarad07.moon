@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Testing Visual Studio Code."
-description: "Hopefully a not so baised review."
+title: "Testing Visual Studio Code - Hopefully a not so baised review"
 date: 2018-10-07
 excerpt: "Trying Visual Studio Code for a full day of work..."
 tags: [Coding, testing, review, Editor, IDE]
