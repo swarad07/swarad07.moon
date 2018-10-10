@@ -62,6 +62,6 @@ Cheers!
 ## Update
 
 1. workbench.editor.enablePreview should be false [Link](https://stackoverflow.com/questions/38713405/how-to-config-vscode-to-open-files-always-in-a-new-tab)
-{% highlight html %}"workbench.editor.enablePreview":false {% highlight %}
+{% highlight html %}"workbench.editor.enablePreview":false {% endhighlight %}
 
 2. Enable breadcrumbs - View > Toggle Breadcrumbs. This shows the CSS heirrachy like I want.
