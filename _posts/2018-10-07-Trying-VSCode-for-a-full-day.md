@@ -26,7 +26,9 @@ A huge disclaimer that I am no way an expert on VS Code, infact I would go furth
 ![quick-info](/assets/img/property-info.png)
 
 ## Things I absolutely hated out of the box, which were fixable.
-1. Search - Autofilling the selected directory as scope. When I tried initially to search by selecting a directory and doing search it always searched in the scope that was last autofilled or entered manually, I expected it to autofill the diretcory path where to search based on which directory I selected. Luckily this was an easy fix using the keybindngs option in Code > Preferences > Keyboard Shortcuts. Here you will find all the possible functions you can do and bind them to a shortcut, I added this in keybindings.json,
+1. Copy Paste Mess - I had to find my inner peace for this one, for some reason the formatting of entire file kept getting messed up when I did copy paste. Bit of searching and clearly I wasnt the only one, found this [stackoverflow answer](https://stackoverflow.com/questions/42747498/vs-code-indentation-when-copying-and-pasting-is-messed-up), I honestly dont know why this is ON by default.
+
+2. Search - Autofilling the selected directory as scope. When I tried initially to search by selecting a directory and doing search it always searched in the scope that was last autofilled or entered manually, I expected it to autofill the diretcory path where to search based on which directory I selected. Luckily this was an easy fix using the keybindngs option in Code > Preferences > Keyboard Shortcuts. Here you will find all the possible functions you can do and bind them to a shortcut, I added this in keybindings.json,
 {% highlight php %}
 [
   {
@@ -38,8 +40,6 @@ A huge disclaimer that I am no way an expert on VS Code, infact I would go furth
 {% endhighlight %}
 
 Now the search autofill works just the way I want on <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>
-
-2. Copy Paste Mess - I had to find my inner peace for this one, for some reason the formatting of entire file kept getting messed up when I did copy paste. Bit of searching and clearly I wasnt the only one, found this [stackoverflow answer](https://stackoverflow.com/questions/42747498/vs-code-indentation-when-copying-and-pasting-is-messed-up), I honestly dont know why this is ON by default.
 
 ## Things I want to find a solution for,
 1. For some reason my Xdebug doesnt work, I use drupal-vm as my local development stack, I am pretty sure something silly I am missing as the instruction [here ](http://docs.drupalvm.com/en/latest/extras/xdebug/) is pretty straightforward to make it work.
