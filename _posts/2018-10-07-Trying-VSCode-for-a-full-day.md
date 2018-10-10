@@ -25,7 +25,7 @@ A huge disclaimer that I am no way an expert on VS Code, infact I would go furth
 4. The quick info option for any property is very good, you can quickly see the function defination as you type.
 ![quick-info](/assets/img/property-info.png)
 
-## Things I absolutely hated ot of the box which were fixable.
+## Things I absolutely hated out of the box, which were fixable.
 1. Search - Autofilling the selected directory as scope. When I tried initially to search by selecting a directory and doing search it always searched in the scope that was last autofilled or entered manually, I expected it to autofill the diretcory path where to search based on which directory I selected. Luckily this was an easy fix using the keybindngs option in Code > Preferences > Keyboard Shortcuts. Here you will find all the possible functions you can do and bind them to a shortcut, I added this in keybindings.json,
 {% highlight php %}
 [
