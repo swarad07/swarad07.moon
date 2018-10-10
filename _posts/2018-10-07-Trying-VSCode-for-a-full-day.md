@@ -37,7 +37,7 @@ A huge disclaimer that I am no way an expert on VS Code, infact I would go furth
 ]
 {% endhighlight %}
 
-Now the search autofill works just the way I want on <kbd>cmd</kbd> + <kbd>shift></kbd> + <kbd>f</kbd>
+Now the search autofill works just the way I want on <kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>
 
 2. Copy Paste Mess - I had to find my inner peace for this one, for some reason the formatting of entire file kept getting messed up when I did copy paste. Bit of searching and clearly I wasnt the only one, found this [stackoverflow answer](https://stackoverflow.com/questions/42747498/vs-code-indentation-when-copying-and-pasting-is-messed-up), I honestly dont know why this is ON by default.
 
