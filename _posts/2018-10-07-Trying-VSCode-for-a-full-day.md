@@ -59,8 +59,11 @@ After a long time I have found a code editor that I can really see myself using 
 Cheers!
 
 
-##Update
+## Update
 
-Fix for #2> workbench.editor.enablePreview should be false [Link] (https://stackoverflow.com/questions/38713405/how-to-config-vscode-to-open-files-always-in-a-new-tab)
+*Fix for #2 >*
+{% highlight json %}"workbench.editor.enablePreview":false {% highlight %} 
+workbench.editor.enablePreview should be false [Link] (https://stackoverflow.com/questions/38713405/how-to-config-vscode-to-open-files-always-in-a-new-tab)
 
-Fix for #3> Enable breadcrumbs - View > Toggle Breadcrumbs.
+*Fix for #3 >*
+Enable breadcrumbs - View > Toggle Breadcrumbs.
