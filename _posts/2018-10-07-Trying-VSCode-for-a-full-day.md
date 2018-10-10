@@ -44,9 +44,9 @@ Now the search autofill works just the way I want on <kbd>CMD</kbd>+<kbd>SHIFT</
 ## Things I want to find a solution for,
 1. For some reason my Xdebug doesnt work, I use drupal-vm as my local development stack, I am pretty sure something silly I am missing as the instruction [here ](http://docs.drupalvm.com/en/latest/extras/xdebug/) is pretty straightforward to make it work.
 
-2. When I click on a file in sidebar, it opens in new tab, if I click on a different file it opens again in the same tab closing the previous file. I think this has got to do with wether that file has any change or not, I dont know how to make each file open in a new tab always.
+2. (Fix updated below) - When I click on a file in sidebar, it opens in new tab, if I click on a different file it opens again in the same tab closing the previous file. I think this has got to do with wether that file has any change or not, I dont know how to make each file open in a new tab always.
 
-3. CSS hierarchy - When you hover on selector I get to see the hierrarchy of the selectors, this is helpful in SCSS files. But I would love an bar at the bottom similar to how PHPStrom does it, where you see the parents as you type. This saves that additional hover action.
+3. (Fix updated below) - CSS hierarchy - When you hover on selector I get to see the hierrarchy of the selectors, this is helpful in SCSS files. But I would love an bar at the bottom similar to how PHPStrom does it, where you see the parents as you type. This saves that additional hover action.
 ![php-storm-css](/assets/img/CSS-hierrachy.png)
 
 4. Search - Old keywords. I find that I often do two seaprate searches and then have to go back to the old keyword to find a file I had just seen which is now not showing up. But there is no way I see that I can select that old keyword from a dropdown or something and run the old search again.
@@ -57,3 +57,11 @@ Now the search autofill works just the way I want on <kbd>CMD</kbd>+<kbd>SHIFT</
 After a long time I have found a code editor that I can really see myself using it as my daily driver. Granted I have spent last few months, switching to VS Code only to find something I dont like, mostly because I have gotten used to my current IDE. What I am really happy about is that nearly all those things that I didnt like I was either to find a workaround or straight up fix it by some config or extension. I am pretty sure if I use it for a month or two (that is the plan as of now) I will find solutions to the above dislikes, lets see how that goes, probably another post after that.
 
 Cheers!
+
+
+## Update
+
+1. workbench.editor.enablePreview should be false [Link](https://stackoverflow.com/questions/38713405/how-to-config-vscode-to-open-files-always-in-a-new-tab)
+{% highlight json %}"workbench.editor.enablePreview":false {% highlight %} 
+
+2. Enable breadcrumbs - View > Toggle Breadcrumbs. This shows the CSS heirrachy like I want.
