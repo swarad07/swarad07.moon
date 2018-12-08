@@ -15,7 +15,7 @@ That brings us to the topic of how to get better at the game, I have been playin
 
 ## 1. Play with headphones.
 
-Lets start with the simple stuff, DONT'T EVEN ATTEMPT TO PLAY PUBG MOBILE WITHOUT HEADPHONES, while this is true for most FPS games, it is super important in PUBG Mobile, the audio from the sorroundings of your charachter is very helpfull to get knowledge about what is around you. You can use audio to pin point location of nearby players, wether they are jumping, what guns they are using, which car just approached you, when somebody pulls the pin on a grenade, the list is endless. Every action in PUBG creates a sound which is unique and good headphones will help you to find it.
+Lets start with the simple stuff, **DONT'T EVEN ATTEMPT TO PLAY PUBG MOBILE WITHOUT HEADPHONES**, while this is true for most FPS games, it is super important in PUBG Mobile, the audio from the sorroundings of your charachter is very helpfull to get knowledge about what is around you. You can use audio to pin point location of nearby players, wether they are jumping, what guns they are using, which car just approached you, when somebody pulls the pin on a grenade, the list is endless. Every action in PUBG creates a sound which is unique and good headphones will help you to find it.
 
 ## 2. Understand the guns, attachments and recoil patterns.
 
@@ -30,37 +30,35 @@ The first thing is practicing pulling down the fire button gradually instead of 
 
 ### Attachments.
 
-Muzzle attachments in order of improving recoil & value add.
-*Compensator - Reduces recoil & no sound reduction.
-*Suppressor - Slightly reduces recoil, less sound, and no flash.
-*Flash Hider - No recoil reduction, No sound reduction, removes flash.
+**Muzzle attachments in order of improving recoil & value add.**
+- Compensator - Reduces recoil & no sound reduction.
+- Suppressor - Slightly reduces recoil, less sound, and no flash.
+- Flash Hider - No recoil reduction, No sound reduction, removes flash.
 
-Grips & stocks in order of improving recoil & value add.
-*Half grip - best recoil control.
-*Vertical grip - better than most, but hlaf grip works better for me.
-*Thumb & angled grip - Slightly reduces recoil.
+**Grips & stocks in order of improving recoil & value add.**
+- Half grip - best recoil control.
+- Vertical grip - better than most, but hlaf grip works better for me.
+- Thumb & angled grip - Slightly reduces recoil.
 
-Stocks and Bullet Loops.
-*Tack stock - for M416 - Must have for M416, else switch to SCAR-L
-*Cheek pad - for sniper riffles - reduces recoil and improves aiming.
-*Bullet loop - for Kar98k - Improves reloading spped.
+**Stocks and Bullet Loops.**
+- Tack stock - for M416 - Must have for M416, else switch to SCAR-L
+- Cheek pad - for sniper riffles - reduces recoil and improves aiming.
+- Bullet loop - for Kar98k - Improves reloading spped.
 
 This may sound too much, but good thing is auto pick will mostly pick up these things for you, all you need to do is remember the preferred option for each type of gun.
 
-Here are my simple rules,
+**Here are my simple rules,**
 1. Always take Compensator over Suppressor and flash hider.
 2. I like Half grip over vertical, but you might prefer other. Go to the training mode and check what feels natural to you.
 3. For sniper riffles, I often prefer Suppressor over Compensator as it is often a single shot and stealth is important.
 
 ### Guns
 
-Lastly guns. They come in all types in the game and each has a time and place. Some guns you will find in abundance in initial loot phase like Shotguns, Vector, Pistols, Tommy Gun. In the initial phase when everyone is trying to find a loot, even a shotgun is a big advantage against someone without any helmet & armour. But these guns are what we call close combat guns and wont stand you a chance against ARs and SMGs.
+Lastly guns. They come in all types in the game and each has a time and place. Some guns you will find in abundance in initial loot phase like Shotguns, Vector, Pistols, Tommy Gun. In the initial phase when everyone is trying to find a loot, even a shotgun is a big advantage against someone without any helmet & armour. UZI and UMP are IMO highly underated guns in initial game phase, even though the have 9mm bullets which dont do much damage but their firing speed makes up for everything.
 
-Try to find guns for two cases, close to mid range and other for long range.
+But these guns are what we call close combat guns and wont stand you a chance against ARs in mid range.
 
-UZI and UMP are IMO highly underated guns, even though the have 9mm bullets which dont do much damage but their firing speed makes up for it.
-
-Then you have your 5.56 and 7.62 ARs, which are shredding machines in proper hands. IMO one of your guns has to be a AR, you wont win a lot fo games without having one.
+So, try to find guns for two cases, close to mid range and other for long range. You have your 5.56 and 7.62 ARs, which are shredding machines in proper hands. One of your guns has to be a AR, you wont win a lot fo games without having one.
 
 ## 3. Rendering distance, lag & strafing.
 
@@ -88,9 +86,9 @@ Sometimes you will get a lag when you are moving, that is nothing but your playe
 The game has three maps Erangel, Miramar and Sanhook each designed to suit a certain style of gameplay. Erangel & Miramar are huge maps, while Sanhook is half the size. The best tip I can give for new players is to not get overwhelmed by the map, instead do a trial & error and try to find a location which suits your gameplay. When you are new, you can start with a less crowded locations, which will allow you to loot freely and get settled in planning the game.
 
 In the map below,
-Blue - Top loot spots.
-Yellow - Medium loot.
-White - Not much loot.
+- Blue - Top loot spots.
+- Yellow - Medium loot.
+- White - Not much loot.
 
 ![map](/assets/img/map.png)
 
