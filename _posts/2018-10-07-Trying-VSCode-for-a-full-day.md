@@ -3,6 +3,7 @@ layout: post
 title: "Testing Visual Studio Code - a not so baised review"
 date: 2018-10-07
 excerpt: "Trying Visual Studio Code for a full day of work."
+feature: ![php-storm-css](/assets/img/CSS-hierrachy.png)
 tags: [Coding, testing, review, Editor, IDE]
 comments: true
 ---
