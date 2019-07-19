@@ -12,6 +12,17 @@
   display: inline;
 }
 
+@mixin headingHighlight() {
+  content: '';
+  background: #0084cc;
+  background: linear-gradient(to right, #0084cc 0%,#ffffff 100%);
+  width: 65%;
+  height: 4px;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
 // Post listing.
 body.s-post-list {
   a.s-post-title {
@@ -31,6 +42,14 @@ body.s-post {
 
     &::before {
       @include titleHighlight;
+    }
+  }
+
+  h3 {
+    position: relative;
+
+    &::before {
+      @include headingHighlight;
     }
   }
 }
