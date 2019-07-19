@@ -1,0 +1,25 @@
+@mixin titleHighlight() {
+  content: '';
+  background: yellow;
+  min-width: 105%;
+  height: 114%;
+  position: absolute;
+  z-index: -1;
+  top: -2px;
+  bottom: -2px;
+  left: -5px;
+  transform: skewX(-24deg);
+  box-shadow: 2px 2px 4px 1px #ccc;
+  display: inline;
+}
+
+body.post-list {
+  a.post-title {
+    position: relative;
+    z-index: 1;
+    
+    &::before {
+      @include titleHighlight;
+    }
+  }
+}
