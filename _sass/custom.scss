@@ -26,6 +26,7 @@
 // Variables.
 $title_highlight: #ffff00;
 $heading_highlight: #0084cc;
+$about_highlight: #ffd1fe;
 
 // Post listing.
 body.s-post-list {
@@ -68,18 +69,24 @@ body.front {
       padding: 10px;
       text-transform: uppercase;
       position: relative;
+      font-weight: 400 !important;
 
       &::before {
-        @include titleHighlight($title_highlight);
+        @include titleHighlight($title_highlight) {
+          left: -24px;
+        }
       }
     }
   }
 
   h3.about.title {
     position: relative;
+    padding: 1px;
 
     &::before {
-      @include titleHighlight($title_highlight);
+      @include titleHighlight($about_highlight) {
+        left: 0;
+      }
     }
   }
 }
