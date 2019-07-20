@@ -74,6 +74,8 @@ body.front {
       &::before {
         @include titleHighlight($title_highlight);
 
+        min-width: 100%;
+        height: auto;
         left: -24px;
       }
     }
@@ -83,10 +85,16 @@ body.front {
     position: relative;
     padding: 1px;
 
+    p {
+      padding: 0 6px;
+    }
+
     &::before {
       @include titleHighlight($about_highlight);
 
+      min-width: 100%;
       left: 0;
+      height: auto;
     }
   }
 }
