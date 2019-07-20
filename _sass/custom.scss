@@ -1,7 +1,7 @@
-@mixin titleHighlight() {
+@mixin titleHighlight($startColor) {
   content: '';
-  background: yellow;
-  background: linear-gradient(to right, yellow 0%,#ffffff 89%);
+  background: $startColor;
+  background: linear-gradient(to right, $startColor 0%,#ffffff 89%);
   min-width: 105%;
   height: 114%;
   position: absolute;
@@ -12,16 +12,20 @@
   display: inline;
 }
 
-@mixin headingHighlight() {
+@mixin headingHighlight($startColor) {
   content: '';
-  background: #0084cc;
-  background: linear-gradient(to right, #0084cc 0%,#ffffff 100%);
+  background: $startColor;
+  background: linear-gradient(to right, $startColor 0%,#ffffff 100%);
   width: 65%;
   height: 4px;
   position: absolute;
   bottom: -5px;
   left: 0;
 }
+
+// Variables.
+$title_highlight: #ffff00;
+$heading_highlight: #0084cc;
 
 // Post listing.
 body.s-post-list {
@@ -30,7 +34,7 @@ body.s-post-list {
     z-index: 1;
 
     &::before {
-      @include titleHighlight;
+      @include titleHighlight($title_highlight);
     }
   }
 }
@@ -41,7 +45,7 @@ body.s-post {
     position: relative;
 
     &::before {
-      @include titleHighlight;
+      @include titleHighlight($title_highlight);
     }
   }
 
@@ -49,7 +53,7 @@ body.s-post {
     position: relative;
 
     &::before {
-      @include headingHighlight;
+      @include headingHighlight($heading_highlight);
     }
   }
 }
@@ -63,16 +67,19 @@ body.front {
       margin: 13px 0;
       padding: 10px;
       text-transform: uppercase;
+      position: relative;
 
       &::before {
-        @include titleHighlight;
+        @include titleHighlight($title_highlight);
       }
     }
   }
 
   h3.about.title {
+    position: relative;
+
     &::before {
-      @include headingHighlight;
+      @include titleHighlight($title_highlight);
     }
   }
 }
