@@ -72,9 +72,9 @@ body.front {
       font-weight: 400 !important;
 
       &::before {
-        @include titleHighlight($title_highlight) {
-          left: -24px;
-        }
+        @include titleHighlight($title_highlight);
+
+        left: -24px;
       }
     }
   }
@@ -84,9 +84,9 @@ body.front {
     padding: 1px;
 
     &::before {
-      @include titleHighlight($about_highlight) {
-        left: 0;
-      }
+      @include titleHighlight($about_highlight);
+
+      left: 0;
     }
   }
 }
