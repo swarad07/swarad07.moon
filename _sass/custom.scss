@@ -53,3 +53,26 @@ body.s-post {
     }
   }
 }
+
+// Front.
+body.front {
+  h3.name.title {
+    p {
+      font-weight: normal;
+      display: inline-block;
+      margin: 13px 0;
+      padding: 10px;
+      text-transform: uppercase;
+
+      &::before {
+        @include titleHighlight;
+      }
+    }
+  }
+
+  h3.about.title {
+    &::before {
+      @include headingHighlight;
+    }
+  }
+}
